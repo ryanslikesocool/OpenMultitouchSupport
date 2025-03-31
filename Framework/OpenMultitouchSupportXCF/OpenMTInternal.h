@@ -6,22 +6,23 @@
 //  Copyright © 2019 Takuto Nakamura. All rights reserved.
 //
 
+#pragma once
 
-#ifndef OpenMTInternal_h
-#define OpenMTInternal_h
+//#ifndef OpenMTInternal_h
+//#define OpenMTInternal_h
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 typedef struct {
-    float x;
-    float y;
+	float x;
+	float y;
 } MTPoint;
 
 typedef struct {
-    MTPoint position;
-    MTPoint velocity;
+	MTPoint position;
+	MTPoint velocity;
 } MTVector;
 
 enum {
@@ -93,4 +94,4 @@ void MTUnregisterPathCallback(MTDeviceRef, MTPathCallbackFunction);
 }
 #endif
 
-#endif /* OpenMTInternal_h */
+//#endif /* OpenMTInternal_h */

@@ -10,38 +10,45 @@ import SwiftUI
 
 @MainActor
 final class ContentViewModel: ObservableObject {
-    @Published var touchData = [OMSTouchData]()
-    @Published var isListening: Bool = false
+	private let manager: OMSManager
+	private var task: Task<Void, Never>?
 
-    private let manager = OMSManager.shared
-    private var task: Task<Void, Never>?
+	@Published fileprivate(set) var touchData: [OMSTouchData]
+	@Published fileprivate(set) var isListening: Bool
 
-    init() {}
+	init() {
+		manager = OMSManager.shared
+		task = nil
 
-    func onAppear() {
-        task = Task { [weak self, manager] in
-            for await touchData in manager.touchDataStream {
-                await MainActor.run {
-                    self?.touchData = touchData
-                }
-            }
-        }
-    }
+		touchData = []
+		isListening = false
+	}
 
-    func onDisappear() {
-        task?.cancel()
-        stop()
-    }
+	func onAppear() {
+		task = Task { [weak self, manager] in
+			for await touchData in manager.touchDataStream {
+				Task { @MainActor in
+					self?.touchData = touchData
+				}
+			}
+		}
+	}
 
-    func start() {
-        if manager.startListening() {
-            isListening = true
-        }
-    }
+	func onDisappear() {
+		task?.cancel()
+		stop()
+	}
 
-    func stop() {
-        if manager.stopListening() {
-            isListening = false
-        }
-    }
+	func start() {
+		if manager.startListening() {
+			isListening = true
+		}
+	}
+
+	func stop() {
+		if manager.stopListening() {
+			isListening = false
+			touchData.removeAll()
+		}
+	}
 }

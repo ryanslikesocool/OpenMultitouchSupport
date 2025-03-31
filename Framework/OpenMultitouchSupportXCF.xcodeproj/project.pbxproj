@@ -3,49 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CF414DD2B924D4B00A4DB17 /* OpenMultitouchSupportXCF.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414DC2B924D4B00A4DB17 /* OpenMultitouchSupportXCF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CF414E52B924D9F00A4DB17 /* MultitouchSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF414E42B924D9F00A4DB17 /* MultitouchSupport.framework */; };
 		1CF414E92B924DA700A4DB17 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF414E82B924DA700A4DB17 /* Cocoa.framework */; };
 		1CF414EB2B924DAE00A4DB17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF414EA2B924DAE00A4DB17 /* Foundation.framework */; };
-		1CF414F92B924E0000A4DB17 /* OpenMTEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF414EC2B924E0000A4DB17 /* OpenMTEvent.m */; };
-		1CF414FA2B924E0000A4DB17 /* OpenMTTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF414ED2B924E0000A4DB17 /* OpenMTTouch.m */; };
-		1CF414FB2B924E0000A4DB17 /* OpenMTEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414EE2B924E0000A4DB17 /* OpenMTEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CF414FC2B924E0000A4DB17 /* OpenMTListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414EF2B924E0000A4DB17 /* OpenMTListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CF414FD2B924E0000A4DB17 /* OpenMTManagerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414F02B924E0000A4DB17 /* OpenMTManagerInternal.h */; };
-		1CF414FE2B924E0000A4DB17 /* OpenMTListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF414F12B924E0000A4DB17 /* OpenMTListener.m */; };
-		1CF414FF2B924E0000A4DB17 /* OpenMTManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414F22B924E0000A4DB17 /* OpenMTManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CF415002B924E0000A4DB17 /* OpenMTListenerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414F32B924E0000A4DB17 /* OpenMTListenerInternal.h */; };
-		1CF415012B924E0000A4DB17 /* OpenMTTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414F42B924E0000A4DB17 /* OpenMTTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CF415022B924E0000A4DB17 /* OpenMTTouchInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414F52B924E0000A4DB17 /* OpenMTTouchInternal.h */; };
-		1CF415032B924E0000A4DB17 /* OpenMTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF414F62B924E0000A4DB17 /* OpenMTManager.m */; };
-		1CF415042B924E0000A4DB17 /* OpenMTEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414F72B924E0000A4DB17 /* OpenMTEventInternal.h */; };
-		1CF415052B924E0000A4DB17 /* OpenMTInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF414F82B924E0000A4DB17 /* OpenMTInternal.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CF414D92B924D4B00A4DB17 /* OpenMultitouchSupportXCF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenMultitouchSupportXCF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CF414DC2B924D4B00A4DB17 /* OpenMultitouchSupportXCF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenMultitouchSupportXCF.h; sourceTree = "<group>"; };
 		1CF414E42B924D9F00A4DB17 /* MultitouchSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultitouchSupport.framework; path = ../../../../System/Library/PrivateFrameworks/MultitouchSupport.framework; sourceTree = "<group>"; };
 		1CF414E82B924DA700A4DB17 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1CF414EA2B924DAE00A4DB17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1CF414EC2B924E0000A4DB17 /* OpenMTEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenMTEvent.m; sourceTree = "<group>"; };
-		1CF414ED2B924E0000A4DB17 /* OpenMTTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenMTTouch.m; sourceTree = "<group>"; };
-		1CF414EE2B924E0000A4DB17 /* OpenMTEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMTEvent.h; sourceTree = "<group>"; };
-		1CF414EF2B924E0000A4DB17 /* OpenMTListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMTListener.h; sourceTree = "<group>"; };
-		1CF414F02B924E0000A4DB17 /* OpenMTManagerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMTManagerInternal.h; sourceTree = "<group>"; };
-		1CF414F12B924E0000A4DB17 /* OpenMTListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenMTListener.m; sourceTree = "<group>"; };
-		1CF414F22B924E0000A4DB17 /* OpenMTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMTManager.h; sourceTree = "<group>"; };
-		1CF414F32B924E0000A4DB17 /* OpenMTListenerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMTListenerInternal.h; sourceTree = "<group>"; };
-		1CF414F42B924E0000A4DB17 /* OpenMTTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMTTouch.h; sourceTree = "<group>"; };
-		1CF414F52B924E0000A4DB17 /* OpenMTTouchInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMTTouchInternal.h; sourceTree = "<group>"; };
-		1CF414F62B924E0000A4DB17 /* OpenMTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenMTManager.m; sourceTree = "<group>"; };
-		1CF414F72B924E0000A4DB17 /* OpenMTEventInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMTEventInternal.h; sourceTree = "<group>"; };
-		1CF414F82B924E0000A4DB17 /* OpenMTInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMTInternal.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AF9087C62D9AE65E00A303EB /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				OpenMTEvent.swift,
+				OpenMTInternal.h,
+				OpenMTListener.swift,
+				OpenMTManager.swift,
+				OpenMTState.swift,
+				OpenMTTouch.swift,
+				OpenMultitouchSupportXCF.h,
+			);
+			publicHeaders = (
+				OpenMTInternal.h,
+				OpenMultitouchSupportXCF.h,
+			);
+			target = 1CF414D82B924D4B00A4DB17 /* OpenMultitouchSupportXCF */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF9087BE2D9AE65000A303EB /* OpenMultitouchSupportXCF */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (AF9087C62D9AE65E00A303EB /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = OpenMultitouchSupportXCF; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1CF414D62B924D4B00A4DB17 /* Frameworks */ = {
@@ -64,7 +60,7 @@
 		1CF414CF2B924D4B00A4DB17 = {
 			isa = PBXGroup;
 			children = (
-				1CF414DB2B924D4B00A4DB17 /* OpenMultitouchSupportXCF */,
+				AF9087BE2D9AE65000A303EB /* OpenMultitouchSupportXCF */,
 				1CF414DA2B924D4B00A4DB17 /* Products */,
 				1CF414E32B924D9F00A4DB17 /* Frameworks */,
 			);
@@ -78,19 +74,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CF414DB2B924D4B00A4DB17 /* OpenMultitouchSupportXCF */ = {
-			isa = PBXGroup;
-			children = (
-				1CF415062B924E7900A4DB17 /* OpenMTEvent */,
-				1CF415092B924E9900A4DB17 /* OpenMTListener */,
-				1CF415082B924E9000A4DB17 /* OpenMTManager */,
-				1CF4150A2B924EA300A4DB17 /* OpenMTTouch */,
-				1CF414F82B924E0000A4DB17 /* OpenMTInternal.h */,
-				1CF414DC2B924D4B00A4DB17 /* OpenMultitouchSupportXCF.h */,
-			);
-			path = OpenMultitouchSupportXCF;
-			sourceTree = "<group>";
-		};
 		1CF414E32B924D9F00A4DB17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,46 +84,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1CF415062B924E7900A4DB17 /* OpenMTEvent */ = {
-			isa = PBXGroup;
-			children = (
-				1CF414EE2B924E0000A4DB17 /* OpenMTEvent.h */,
-				1CF414F72B924E0000A4DB17 /* OpenMTEventInternal.h */,
-				1CF414EC2B924E0000A4DB17 /* OpenMTEvent.m */,
-			);
-			name = OpenMTEvent;
-			sourceTree = "<group>";
-		};
-		1CF415082B924E9000A4DB17 /* OpenMTManager */ = {
-			isa = PBXGroup;
-			children = (
-				1CF414F22B924E0000A4DB17 /* OpenMTManager.h */,
-				1CF414F02B924E0000A4DB17 /* OpenMTManagerInternal.h */,
-				1CF414F62B924E0000A4DB17 /* OpenMTManager.m */,
-			);
-			name = OpenMTManager;
-			sourceTree = "<group>";
-		};
-		1CF415092B924E9900A4DB17 /* OpenMTListener */ = {
-			isa = PBXGroup;
-			children = (
-				1CF414EF2B924E0000A4DB17 /* OpenMTListener.h */,
-				1CF414F32B924E0000A4DB17 /* OpenMTListenerInternal.h */,
-				1CF414F12B924E0000A4DB17 /* OpenMTListener.m */,
-			);
-			name = OpenMTListener;
-			sourceTree = "<group>";
-		};
-		1CF4150A2B924EA300A4DB17 /* OpenMTTouch */ = {
-			isa = PBXGroup;
-			children = (
-				1CF414F42B924E0000A4DB17 /* OpenMTTouch.h */,
-				1CF414F52B924E0000A4DB17 /* OpenMTTouchInternal.h */,
-				1CF414ED2B924E0000A4DB17 /* OpenMTTouch.m */,
-			);
-			name = OpenMTTouch;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -148,16 +91,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF415052B924E0000A4DB17 /* OpenMTInternal.h in Headers */,
-				1CF414FF2B924E0000A4DB17 /* OpenMTManager.h in Headers */,
-				1CF414FB2B924E0000A4DB17 /* OpenMTEvent.h in Headers */,
-				1CF414FC2B924E0000A4DB17 /* OpenMTListener.h in Headers */,
-				1CF415012B924E0000A4DB17 /* OpenMTTouch.h in Headers */,
-				1CF414FD2B924E0000A4DB17 /* OpenMTManagerInternal.h in Headers */,
-				1CF415002B924E0000A4DB17 /* OpenMTListenerInternal.h in Headers */,
-				1CF414DD2B924D4B00A4DB17 /* OpenMultitouchSupportXCF.h in Headers */,
-				1CF415042B924E0000A4DB17 /* OpenMTEventInternal.h in Headers */,
-				1CF415022B924E0000A4DB17 /* OpenMTTouchInternal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +122,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					1CF414D82B924D4B00A4DB17 = {
 						CreatedOnToolsVersion = 15.2;
@@ -229,10 +162,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF415032B924E0000A4DB17 /* OpenMTManager.m in Sources */,
-				1CF414FE2B924E0000A4DB17 /* OpenMTListener.m in Sources */,
-				1CF414FA2B924E0000A4DB17 /* OpenMTTouch.m in Sources */,
-				1CF414F92B924E0000A4DB17 /* OpenMTEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +203,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -298,6 +228,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -338,6 +269,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -355,6 +287,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -364,11 +298,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VJ5N2X84K8;
+				DEVELOPMENT_TEAM = 838RGQ32CA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -399,11 +335,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VJ5N2X84K8;
+				DEVELOPMENT_TEAM = 838RGQ32CA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
